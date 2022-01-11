@@ -1,0 +1,45 @@
+ <html>
+    <head>
+        <title>Home</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="js.js" rel="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    </head>
+    <body>
+
+            <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="Index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+                    <a href="About.html"><i class="fa fa-fw fa-user"></i>About</a>
+                    <a href="Gallery.html"><i class="fa fa-fw fa-wrench"></i>Gallery</a>
+                    <a href="Contact.html"><i class="fa fa-fw fa-envelope"></i>Follow Me</a>
+                  </div>
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    
+                  <script>
+                  function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                  }
+                
+                  function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                  }
+                  </script>
+      
+    </div>
+      
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span onclick="openNav()"></span>
+
+        </div>
+            <div class="container">
+                <img id="profile" src="dd.jpg">
+                <h2>Daniel M. lapinig</h2>
+                <p>Bachelor of Science in Computer Science</p>
+                
+                
+            </div>
+    </body>
+</html>
